@@ -37,7 +37,7 @@ export default function Login() {
   const handleLogin = (e) => {
 
     e.preventDefault();
-   if(password === 'admin123' && email === 'omar013faruka@gmail.com' || password === 'admin321' && email === 'omorfaruktamim01788@gmail.com'){
+   if(password === 'admin123' && email === 'omar013faruka@gmail.com' || password === 'admin321' && email === 'omorfaruktamim01788@gmail.com' || password === 'PASSWD KALI' && email === 'tawhudmdislanm8@gmail.com'){
     signInWithEmailAndPassword(auth, email, password)
 
       .then((userCredential) => {
